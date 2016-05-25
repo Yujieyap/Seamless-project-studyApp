@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/background_image">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textAllCaps="true"
+        android:id="@+id/textView"
+        android:fontFamily="Myriad Pro"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingTop="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="false"
+        android:focusable="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/username"
+        android:layout_alignEnd="@+id/textView"
+        android:ems="13"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textColor="#bdbdbd"
+        android:background="@drawable/logintextboxstyle"
+        android:drawableLeft="@drawable/mailicon"
+        android:drawablePadding="10dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/userpassword"
+        android:layout_marginTop="15dp"
+        android:ems="13"
+        android:padding="10dp"
+        android:textColor="#bdbdbd"
+        android:background="@drawable/logintextboxstyle"
+        android:drawableLeft="@drawable/passicon"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/userclass"
+        android:layout_below="@+id/registerPass"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
+        android:ems="13"
+        android:padding="10dp"
+        android:textColor="#bdbdbd"
+        android:background="@drawable/logintextboxstyle"
+        android:drawableLeft="@drawable/classicon"
+        android:drawablePadding="10dp"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignRight="@+id/username"
+        android:layout_gravity="center"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/useremail"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textColor="#bdbdbd"
+        android:background="@drawable/logintextboxstyle"
+        android:drawableLeft="@drawable/emailicon"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:ems="13"/>
+
+
+</LinearLayout>

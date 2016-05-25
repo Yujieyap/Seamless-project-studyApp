@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context="com.ngoogle.login.MainActivity"
+                android:background="@drawable/background_image"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACQUIREMENT"
+        android:id="@+id/textView"
+        android:fontFamily="Myriad Pro"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/loginName"
+        android:hint="Username:"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="#bdbdbd"
+        android:background="@drawable/logintextboxstyle"
+        android:drawableLeft="@drawable/mailicon"
+        android:drawablePadding="10dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <requestFocus />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/loginPass"
+        android:hint=" Password:"
+        android:layout_below="@+id/loginName"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:textColor="#bdbdbd"
+        android:background="@drawable/logintextboxstyle"
+        android:drawableLeft="@drawable/passicon"
+        android:drawablePadding="10dp"
+        android:layout_alignLeft="@+id/loginName"
+        android:layout_alignRight="@+id/loginName"
+        android:layout_marginLeft="25dp"
+
+        />
+    <requestFocus />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:onClick="login"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignLeft="@+id/loginPass"
+        android:layout_alignRight="@+id/loginPass"
+        android:background="@drawable/sign_up"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+
+
+
+</RelativeLayout>

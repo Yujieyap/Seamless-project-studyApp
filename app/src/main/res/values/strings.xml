@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Acquirement</string>
+
+    <array name="subjects">
+        <item>Math</item>
+        <item>English</item>
+        <item>Science</item>
+        <item>Chinese</item>
+    </array>
+
+    <string-array name="subject">
+        <item>English</item>
+        <item>Math</item>
+        <item>Chinese</item>
+        <item>Science</item>
+    </string-array>
+</resources>

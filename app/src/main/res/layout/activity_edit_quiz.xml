@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_image"
+    tools:context="com.example.android.project.EditQuiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Edit Quiz"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/logout"
+            android:id="@+id/button31" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question: "
+            android:textSize="20dp"/>
+        <EditText
+        android:id="@+id/editQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 1: "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/rb_choice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2: "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/rb_choice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 3: "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/rb_choice3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 4: "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/rb_choice4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer: "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/tvAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+        android:id="@+id/btn_next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="20dp"
+
+        android:background="@drawable/buttonshape"
+        android:onClick="hello"
+        android:shadowRadius="10"
+        android:text="NEXT"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+
+
+        />
+
+        <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/btn_Updated"
+        android:layout_weight="1"/>
+
+
+        <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/btn_Deleted"
+        android:layout_weight="1"/>
+
+
+
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/editQuestions"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:paddingBottom="0dp"-->
+
+            <!--android:textAlignment="center"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+
+            <!--/>-->
+
+
+
+            <!--<EditText-->
+                <!--android:id="@+id/rb_choice1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="91dp"-->
+
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tvAnswer"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:text="New Text"/>-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/rb_choice2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="56dp"-->
+
+             <!--/>-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/rb_choice3"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="81dp"-->
+                <!--android:checked="false"-->
+                <!--android:text="RadioButton"/>-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/rb_choice4"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+              <!--/>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_next"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="35dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+
+                <!--android:background="@drawable/buttonshape"-->
+                <!--android:onClick="hello"-->
+                <!--android:shadowRadius="10"-->
+                <!--android:text="NEXT"-->
+                <!--android:textColor="#FFFFFF"-->
+
+
+                <!--/>-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Update"-->
+                <!--android:id="@+id/btn_Updated"/>-->
+
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Delete"-->
+                <!--android:id="@+id/btn_Deleted"/>-->
+
+
+
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

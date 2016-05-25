@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.android.project"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk tools:overrideLibrary="com.firebase.ui"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/create_thumb"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResultActivity"/>
+        <activity
+            android:name=".Subjects"
+            android:launchMode="singleInstance"
+            android:taskAffinity="com.example.Subjects"/>
+        <activity android:name=".QuizActivity"/>
+        <activity android:name=".Home"/>
+        <activity android:name=".StudentLoginActivity"/>
+        <activity android:name=".Feedback"/>
+        <activity android:name=".TeacherLoginActivity"/>
+        <activity android:name=".StudentViewGrades"/>
+        <activity android:name=".CreateQuiz"/>
+        <activity android:name=".TeacherHome"/>
+        <activity android:name=".NewQuizName"/>
+        <activity
+            android:name=".ChaptersSelection"
+            android:launchMode="singleInstance"/>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity android:name=".StudentHomed"/>
+        <activity android:name=".CreatingQuiz"/>
+        <activity
+            android:name=".SubjectsGrade"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:name=".ChaptersGrade"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".ScoreList"/>
+        <activity android:name=".EditSubjects"/>
+        <activity android:name=".EditChapters"/>
+        <activity android:name=".EditQuiz"/>
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register"/>
+        <activity android:name=".ChatActivity"/>
+        <activity android:name=".Profile"/>
+        <activity android:name=".WriteFeedback">
+        </activity>
+        <activity android:name=".Readfb">
+        </activity>
+        <activity android:name=".Error">
+        </activity>
+        <activity android:name=".TeacherGradesSelection">
+        </activity>
+        <activity android:name=".TeacherGrades">
+        </activity>
+    </application>
+
+</manifest>
